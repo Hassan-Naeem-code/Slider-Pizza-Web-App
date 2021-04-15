@@ -36,3 +36,227 @@
     transform: rotate(360deg);
   }
 }
+
+.p-l-r-0{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.navs{
+  list-style: none;
+  display: inline-flex;
+}
+.sub-navs{
+  list-style: none;
+  display: inline-flex;
+}
+.sub-navs li{
+  margin-right: 13px;
+}
+.sub-navs::after{
+    content: '';    
+    position: absolute;
+    top: 10px;
+    display: block;
+    height: 1px;
+    width: 60%;
+    margin: 15px auto;
+    background: #000;
+}
+.h-10{
+  height: 160px;
+  box-shadow: 0 0 10px 6px rgb(29 29 29 / 10%);
+}
+.pos-rel{
+  position: relative;
+}
+.font-10{
+  font-size: 10px !important;
+}
+.font-8{
+  font-size: 8px !important;
+}
+.ot-b-none{
+  outline: none;
+  border: none;
+  letter-spacing: 2px;
+}
+.h-auto{
+  height: auto !important;
+}
+.area-for-description{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 92%;
+  padding: 4px;
+  line-height: 10px;
+}
+.border-shadow-new{
+  box-shadow: 0 0 10px 6px rgb(29 29 29 / 10%);
+}
+.font-14{
+  font-size: 14px;
+} 
+.font-700{
+  font-weight: 700;
+} 
+.color-white{
+  color: white;
+} 
+.text-capitalise{
+  text-transform: uppercase;
+}
+.select-active{
+  background-color: rgb(23, 23, 23);
+  color: rgb(255, 205, 54);
+  border-radius: 15px;
+  padding: 3px 10px 3px 10px;
+  font-size: 9px !important;
+}
+.bg-white{
+  background-color: white;
+}
+.area-select{
+  background-color: #cf1d25;
+  position: absolute;
+  top: 1px;
+  right: 15px;
+  width: 80px;
+  padding: 3px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: none;
+}
+.area-nutrition{
+  background-color: rgb(70, 66, 65);
+  position: absolute;
+  top: 24px;
+  right: 15px;
+  width: 80px;
+  padding: 3px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: none;
+}
+.border-radius-25{
+  border-radius: 25px;
+}
+.round-circle{
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  border-radius: 50%;
+  background-color: #cf1d25;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+}
+.round-circle-black{
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 900;
+  margin-right: 5px;
+  color: black;
+}
+.round-circle-black:hover{
+  transition: .5s ease;
+  cursor: pointer;
+  border-color: rgb(255, 205, 54);
+}
+.area-specs{
+  display: inline-block;
+    width: 24px;
+    margin-top: 5px;
+}
+.show-area-hidden:hover{
+  cursor: pointer;
+  transition: .5s ease;
+}
+.show-area-hidden:hover .area-nutrition{
+  display: block !important;
+}
+.show-area-hidden:hover .area-select{
+  display: block !important;
+}
+.navs li{
+  margin-right: 15px;
+}
+.bg-yellow{
+  background-color: rgb(255,205,54);
+  height: 80px !important;
+}
+.bg-black{
+  background-color: rgb(23, 23, 23);
+}
+.w-14{
+  width: 14%;
+}
+.bg-image{
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8e3917bd-0936-4ffd-9898-76f7adee9880/de3f580-5e6d7361-82bc-40db-b5df-7c8c753c1118.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOGUzOTE3YmQtMDkzNi00ZmZkLTk4OTgtNzZmN2FkZWU5ODgwXC9kZTNmNTgwLTVlNmQ3MzYxLTgyYmMtNDBkYi1iNWRmLTdjOGM3NTNjMTExOC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.bp1ZOJvDHUPdnQOf0PKeRCm37XplQ53tsB0zaQa0zK8');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 93.5vh;
+  position: relative;
+}
+.bg-image-second{
+  background-image: url('https://www.crushpixel.com/big-static16/preview4/pizza-hand-drawn-cartoon-doodles-2371850.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 93.5vh;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.h-35-px{
+  height: 35px;
+}
+.l-h-12{
+  line-height: 12px !important;
+}
+.word-space{
+  letter-spacing: 2px;
+}
+.font-12{
+  font-size: 11px;
+} 
+.font-500{
+  font-weight: 500;
+} 
+.color-yellow{
+  color: rgb(255, 205, 54);
+}
+.color-yellow:hover{
+  transition: .5s ease;
+  cursor: pointer;
+  color: white;
+}
+.color-black{
+  color: rgb(23, 23, 23);
+}
+.color-black:hover{
+  transition: .5s ease;
+  cursor: pointer;
+  color: white;
+}
+.image-side{
+  width: 20%;
+    position: absolute;
+    right: 0%;
+}
+.image-side-left{
+  width: 20%;
+  position: absolute;
+  left: -3%;
+}
